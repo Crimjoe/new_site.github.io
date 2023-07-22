@@ -1,0 +1,112 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 400px;
+background: url('https://images.unsplash.com/photo-1633936042085-42b267cfb32b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80') no-repeat bottom;
+background-size: 100% 100%;
+  }
+
+h1 {
+    color: rgb(226, 231, 231);
+    font-size: 4em;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: -3em;
+    margin-right: 7em;
+}
+
+.new::before {
+  content: 'New';
+  color: rgb(167, 116, 57);
+  vertical-align: middle;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.news {
+  background-color: rgb(226, 234, 248);
+  padding: 50px 0 32px;
+}
+
+div.linksf > a {
+  color: rgb(0, 0, 0);
+  padding: 0px 13px;
+  font-size: 13px;
+  position:relative;
+  top: -14em;
+  left: -30em;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(226, 231, 231);
+}
+
+article:nth-child(even) {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  background-color: rgb(241, 240, 226);
+}
+
+article:nth-child(odd) {
+  width: 768px;
+  margin: 0 auto 32px;
+  padding: 6px 15px;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  background-color: rgb(184, 209, 235);
+}
+
+article a {
+  color: rgb(33, 37, 41);
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #0085a1;
+}
+
+article h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+
+.article-meta {
+  color: rgb(33, 37, 41);
+  margin-bottom: 5px;
+}
+
+article img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+footer .links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.copyright {
+  color: rgb(108, 117, 125);
+  font-family: 'Times New Roman', Times, serif;
+}
